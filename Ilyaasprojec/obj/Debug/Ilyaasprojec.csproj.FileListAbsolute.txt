@@ -1,0 +1,66 @@
+c:\users\abdirahman\documents\visual studio 2013\Projects\Ilyaasprojec\Ilyaasprojec\bin\Debug\Ilyaasprojec.exe.config
+c:\users\abdirahman\documents\visual studio 2013\Projects\Ilyaasprojec\Ilyaasprojec\bin\Debug\Ilyaasprojec.exe
+c:\users\abdirahman\documents\visual studio 2013\Projects\Ilyaasprojec\Ilyaasprojec\bin\Debug\Ilyaasprojec.pdb
+c:\users\abdirahman\documents\visual studio 2013\Projects\Ilyaasprojec\Ilyaasprojec\obj\Debug\Ilyaasprojec.csprojResolveAssemblyReference.cache
+c:\users\abdirahman\documents\visual studio 2013\Projects\Ilyaasprojec\Ilyaasprojec\obj\Debug\Ilyaasprojec.Form1.resources
+c:\users\abdirahman\documents\visual studio 2013\Projects\Ilyaasprojec\Ilyaasprojec\obj\Debug\Ilyaasprojec.Properties.Resources.resources
+c:\users\abdirahman\documents\visual studio 2013\Projects\Ilyaasprojec\Ilyaasprojec\obj\Debug\Ilyaasprojec.csproj.GenerateResource.Cache
+c:\users\abdirahman\documents\visual studio 2013\Projects\Ilyaasprojec\Ilyaasprojec\obj\Debug\Ilyaasprojec.exe
+c:\users\abdirahman\documents\visual studio 2013\Projects\Ilyaasprojec\Ilyaasprojec\obj\Debug\Ilyaasprojec.pdb
+c:\users\abdirahman\documents\visual studio 2013\Projects\Ilyaasprojec\Ilyaasprojec\obj\Debug\Ilyaasprojec.MDIParent1.resources
+C:\Users\Abdirahman\Documents\Visual Studio 2013\Projects\Ilyaasprojec\Ilyaasprojec\obj\Debug\Ilyaasprojec.Form2.resources
+C:\Users\Abdirahman\Documents\Visual Studio 2013\Projects\Ilyaasprojec\Ilyaasprojec\obj\Debug\Ilyaasprojec.Form4.resources
+C:\Users\Abdirahman\Documents\Visual Studio 2013\Projects\Ilyaasprojec\Ilyaasprojec\obj\Debug\Ilyaasprojec.Form5.resources
+C:\Users\Abdirahman\Documents\Visual Studio 2013\Projects\Ilyaasprojec\Ilyaasprojec\obj\Debug\Ilyaasprojec.Form6.resources
+C:\Users\Abdirahman\Documents\Visual Studio 2013\Projects\Ilyaasprojec\Ilyaasprojec\obj\Debug\Ilyaasprojec.Form7.resources
+C:\Users\Abdirahman\Documents\Visual Studio 2013\Projects\Ilyaasprojec\Ilyaasprojec\obj\Debug\Ilyaasprojec.Form8.resources
+F:\Ilyaasprojec\Ilyaasprojec\bin\Debug\Ilyaasprojec.exe.config
+F:\Ilyaasprojec\Ilyaasprojec\bin\Debug\Ilyaasprojec.exe
+F:\Ilyaasprojec\Ilyaasprojec\bin\Debug\Ilyaasprojec.pdb
+F:\Ilyaasprojec\Ilyaasprojec\obj\Debug\Ilyaasprojec.csprojResolveAssemblyReference.cache
+F:\Ilyaasprojec\Ilyaasprojec\obj\Debug\Ilyaasprojec.Form1.resources
+F:\Ilyaasprojec\Ilyaasprojec\obj\Debug\Ilyaasprojec.Form2.resources
+F:\Ilyaasprojec\Ilyaasprojec\obj\Debug\Ilyaasprojec.Form4.resources
+F:\Ilyaasprojec\Ilyaasprojec\obj\Debug\Ilyaasprojec.Form5.resources
+F:\Ilyaasprojec\Ilyaasprojec\obj\Debug\Ilyaasprojec.Form6.resources
+F:\Ilyaasprojec\Ilyaasprojec\obj\Debug\Ilyaasprojec.Form7.resources
+F:\Ilyaasprojec\Ilyaasprojec\obj\Debug\Ilyaasprojec.Form8.resources
+F:\Ilyaasprojec\Ilyaasprojec\obj\Debug\Ilyaasprojec.MDIParent1.resources
+F:\Ilyaasprojec\Ilyaasprojec\obj\Debug\Ilyaasprojec.Properties.Resources.resources
+F:\Ilyaasprojec\Ilyaasprojec\obj\Debug\Ilyaasprojec.csproj.GenerateResource.Cache
+F:\Ilyaasprojec\Ilyaasprojec\obj\Debug\Ilyaasprojec.exe
+F:\Ilyaasprojec\Ilyaasprojec\obj\Debug\Ilyaasprojec.pdb
+C:\Users\AAA\Downloads\Ilyaasprojec\Ilyaasprojec\Ilyaasprojec\obj\Debug\Ilyaasprojec.csproj.AssemblyReference.cache
+C:\Users\AAA\Downloads\Ilyaasprojec\Ilyaasprojec\Ilyaasprojec\obj\Debug\Ilyaasprojec.exe
+C:\Users\AAA\Downloads\Ilyaasprojec\Ilyaasprojec\Ilyaasprojec\obj\Debug\Ilyaasprojec.pdb
+C:\Users\hp\Desktop\Ilyaasprojec\Ilyaasprojec\Ilyaasprojec\obj\Debug\Ilyaasprojec.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\Ilyaasprojec\Ilyaasprojec\Ilyaasprojec\obj\Debug\Ilyaasprojec.exe
+C:\Users\hp\Desktop\Ilyaasprojec\Ilyaasprojec\Ilyaasprojec\obj\Debug\Ilyaasprojec.pdb
+C:\Users\hp\Desktop\Ilyaasprojec\Ilyaasprojec\Ilyaasprojec\obj\Debug\Ilyaasprojec.g.resources
+C:\Users\hp\Desktop\Ilyaasprojec\Ilyaasprojec\Ilyaasprojec\bin\Debug\Ilyaasprojec.exe.config
+C:\Users\hp\Desktop\Ilyaasprojec\Ilyaasprojec\Ilyaasprojec\bin\Debug\Ilyaasprojec.exe
+C:\Users\hp\Desktop\Ilyaasprojec\Ilyaasprojec\Ilyaasprojec\bin\Debug\Ilyaasprojec.pdb
+C:\Users\hp\Desktop\Ilyaasprojec\Ilyaasprojec\Ilyaasprojec\obj\Debug\Ilyaasprojec.Properties.Resources.resources
+C:\Users\hp\Desktop\Ilyaasprojec\Ilyaasprojec\Ilyaasprojec\obj\Debug\Ilyaasprojec.csproj.GenerateResource.cache
+C:\Users\hp\Desktop\Ilyaasprojec\Ilyaasprojec\Ilyaasprojec\obj\Debug\Ilyaasprojec.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\coca cola\Ilyaasprojec\Ilyaasprojec\bin\Debug\Ilyaasprojec.exe.config
+C:\Users\hp\Desktop\coca cola\Ilyaasprojec\Ilyaasprojec\bin\Debug\Ilyaasprojec.exe
+C:\Users\hp\Desktop\coca cola\Ilyaasprojec\Ilyaasprojec\bin\Debug\Ilyaasprojec.pdb
+C:\Users\hp\Desktop\coca cola\Ilyaasprojec\Ilyaasprojec\obj\Debug\Ilyaasprojec.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\coca cola\Ilyaasprojec\Ilyaasprojec\obj\Debug\Ilyaasprojec.g.resources
+C:\Users\hp\Desktop\coca cola\Ilyaasprojec\Ilyaasprojec\obj\Debug\Ilyaasprojec.Properties.Resources.resources
+C:\Users\hp\Desktop\coca cola\Ilyaasprojec\Ilyaasprojec\obj\Debug\Ilyaasprojec.csproj.GenerateResource.cache
+C:\Users\hp\Desktop\coca cola\Ilyaasprojec\Ilyaasprojec\obj\Debug\Ilyaasprojec.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\coca cola\Ilyaasprojec\Ilyaasprojec\obj\Debug\Ilyaasprojec.exe
+C:\Users\hp\Desktop\coca cola\Ilyaasprojec\Ilyaasprojec\obj\Debug\Ilyaasprojec.pdb
+C:\Users\AAA\OneDrive\Desktop\coca cola\COCA COLA\Ilyaasprojec\obj\Debug\Ilyaasprojec.csproj.AssemblyReference.cache
+C:\Users\AAA\OneDrive\Desktop\coca cola\COCA COLA\Ilyaasprojec\obj\Debug\Ilyaasprojec.csproj.SuggestedBindingRedirects.cache
+C:\Users\AAA\OneDrive\Desktop\coca cola\COCA COLA\Ilyaasprojec\obj\Debug\Ilyaasprojec.Properties.Resources.resources
+C:\Users\AAA\OneDrive\Desktop\coca cola\COCA COLA\Ilyaasprojec\obj\Debug\Ilyaasprojec.csproj.GenerateResource.cache
+C:\Users\AAA\OneDrive\Desktop\coca cola\COCA COLA\Ilyaasprojec\obj\Debug\Ilyaasprojec.csproj.CoreCompileInputs.cache
+C:\Users\AAA\OneDrive\Desktop\coca cola\COCA COLA\Ilyaasprojec\obj\Debug\coca-cola.g.resources
+C:\Users\AAA\OneDrive\Desktop\coca cola\COCA COLA\Ilyaasprojec\bin\Debug\coca-cola.exe.config
+C:\Users\AAA\OneDrive\Desktop\coca cola\COCA COLA\Ilyaasprojec\bin\Debug\coca-cola.exe
+C:\Users\AAA\OneDrive\Desktop\coca cola\COCA COLA\Ilyaasprojec\bin\Debug\coca-cola.pdb
+C:\Users\AAA\OneDrive\Desktop\coca cola\COCA COLA\Ilyaasprojec\obj\Debug\coca-cola.exe
+C:\Users\AAA\OneDrive\Desktop\coca cola\COCA COLA\Ilyaasprojec\obj\Debug\coca-cola.pdb
