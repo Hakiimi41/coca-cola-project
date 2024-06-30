@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Ilyaasprojec
 {
@@ -26,8 +27,11 @@ namespace Ilyaasprojec
 
         private void Form4_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'masterDataSet23.Products' table. You can move, or remove it, as needed.
-            this.productsTableAdapter1.Fill(this.masterDataSet23.Products);
+            // TODO: This line of code loads data into the 'masterDataSet35.Categories' table. You can move, or remove it, as needed.
+            this.categoriesTableAdapter.Fill(this.masterDataSet35.Categories);
+            // TODO: This line of code loads data into the 'masterDataSet34.Products' table. You can move, or remove it, as needed.
+            this.productsTableAdapter.Fill(this.masterDataSet34.Products);
+
             display();
         }
 
@@ -62,7 +66,7 @@ namespace Ilyaasprojec
             conn.Open();
             SqlCommand cmd = conn.CreateCommand();
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = " insert into Products (product_name,description,price,quantity_in_stock)values('" + textBox2.Text + "','" + textBox3.Text + "','" + textBox4.Text + "','" + textBox5.Text + "')";
+            cmd.CommandText = " insert into Products (product_name,description,price,quantity_in_stock,category_id)values('" + textBox2.Text + "','" + textBox3.Text + "','" + textBox4.Text + "','" + textBox5.Text + "','" + comboBox1.SelectedValue.ToString() + "')";
             cmd.ExecuteNonQuery();
             MessageBox.Show("data inserted");
             conn.Close();
@@ -76,7 +80,7 @@ namespace Ilyaasprojec
             textBox3.Text = "";
             textBox4.Text = "";
             textBox5.Text = "";
-         
+   
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -86,6 +90,7 @@ namespace Ilyaasprojec
             textBox3.Text = "";
             textBox4.Text = "";
             textBox5.Text = "";
+         
             
         }
         public void display()
@@ -109,7 +114,7 @@ namespace Ilyaasprojec
            
             SqlCommand cmd = conn.CreateCommand();
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = " update Products set product_name='" + textBox2.Text + "',description='" + textBox3.Text + "',price='" + textBox4.Text + "',quantity_in_stock='" + textBox5.Text + "' where product_id ='" + textBox1.Text + "'";
+            cmd.CommandText = " update Products set product_name='" + textBox2.Text + "',description='" + textBox3.Text + "',price='" + textBox4.Text + "',quantity_in_stock='" + textBox5.Text + "','" + comboBox1.SelectedValue + "' where product_id ='" + textBox1.Text + "'";
             cmd.ExecuteNonQuery();
             MessageBox.Show("data is updated");
             conn.Close();
@@ -148,9 +153,10 @@ namespace Ilyaasprojec
                 textBox3.Text = sdr.GetValue(2).ToString();
                textBox4.Text = sdr.GetValue(3).ToString();
                 textBox5.Text = sdr.GetValue(4).ToString();
-                
-              
-                
+                comboBox1.SelectedValue = sdr.GetValue(2);
+
+
+
             }
             conn.Close();
             

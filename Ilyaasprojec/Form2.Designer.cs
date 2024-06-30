@@ -53,10 +53,6 @@
             this.button5 = new System.Windows.Forms.Button();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.masterDataSet5 = new Ilyaasprojec.masterDataSet5();
-            this.registrationBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.registrationTableAdapter = new Ilyaasprojec.masterDataSet5TableAdapters.registrationTableAdapter();
             this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.fistnameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lastnameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -65,11 +61,15 @@
             this.emailDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.phoneDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.addressDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.registrationBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.masterDataSet5 = new Ilyaasprojec.masterDataSet5();
+            this.registrationTableAdapter = new Ilyaasprojec.masterDataSet5TableAdapters.registrationTableAdapter();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.masterDataSet5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.registrationBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.masterDataSet5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -104,7 +104,7 @@
             this.button6.ForeColor = System.Drawing.Color.White;
             this.button6.Location = new System.Drawing.Point(471, 534);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(129, 72);
+            this.button6.Size = new System.Drawing.Size(141, 55);
             this.button6.TabIndex = 17;
             this.button6.Text = "Clear";
             this.button6.UseVisualStyleBackColor = false;
@@ -116,7 +116,7 @@
             this.button1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(177, 534);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(129, 72);
+            this.button1.Size = new System.Drawing.Size(141, 55);
             this.button1.TabIndex = 14;
             this.button1.Text = "insert";
             this.button1.UseVisualStyleBackColor = false;
@@ -128,7 +128,7 @@
             this.button2.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(22, 534);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(147, 72);
+            this.button2.Size = new System.Drawing.Size(141, 55);
             this.button2.TabIndex = 15;
             this.button2.Text = "Update";
             this.button2.UseVisualStyleBackColor = false;
@@ -141,7 +141,7 @@
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Location = new System.Drawing.Point(336, 534);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(129, 72);
+            this.button3.Size = new System.Drawing.Size(141, 55);
             this.button3.TabIndex = 16;
             this.button3.Text = "Delete";
             this.button3.UseVisualStyleBackColor = false;
@@ -290,11 +290,11 @@
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.Black;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Font = new System.Drawing.Font("Century Gothic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(657, 151);
+            this.button4.Location = new System.Drawing.Point(676, 174);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(168, 72);
+            this.button4.Size = new System.Drawing.Size(141, 49);
             this.button4.TabIndex = 17;
             this.button4.Text = "Search";
             this.button4.UseVisualStyleBackColor = false;
@@ -303,11 +303,11 @@
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.Blue;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Font = new System.Drawing.Font("Century Gothic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(832, 151);
+            this.button5.Location = new System.Drawing.Point(832, 174);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(141, 72);
+            this.button5.Size = new System.Drawing.Size(141, 49);
             this.button5.TabIndex = 18;
             this.button5.Text = "filter";
             this.button5.UseVisualStyleBackColor = false;
@@ -315,10 +315,10 @@
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(987, 151);
+            this.textBox8.Location = new System.Drawing.Point(987, 174);
             this.textBox8.Multiline = true;
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(536, 61);
+            this.textBox8.Size = new System.Drawing.Size(536, 49);
             this.textBox8.TabIndex = 17;
             // 
             // dataGridView1
@@ -339,34 +339,8 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(868, 358);
+            this.dataGridView1.Size = new System.Drawing.Size(1277, 358);
             this.dataGridView1.TabIndex = 19;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Ilyaasprojec.Properties.Resources.add_user;
-            this.pictureBox1.Location = new System.Drawing.Point(36, 18);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(150, 102);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 20;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // masterDataSet5
-            // 
-            this.masterDataSet5.DataSetName = "masterDataSet5";
-            this.masterDataSet5.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // registrationBindingSource
-            // 
-            this.registrationBindingSource.DataMember = "registration";
-            this.registrationBindingSource.DataSource = this.masterDataSet5;
-            // 
-            // registrationTableAdapter
-            // 
-            this.registrationTableAdapter.ClearBeforeFill = true;
             // 
             // idDataGridViewTextBoxColumn
             // 
@@ -433,11 +407,37 @@
             this.addressDataGridViewTextBoxColumn.Name = "addressDataGridViewTextBoxColumn";
             this.addressDataGridViewTextBoxColumn.Width = 150;
             // 
+            // registrationBindingSource
+            // 
+            this.registrationBindingSource.DataMember = "registration";
+            this.registrationBindingSource.DataSource = this.masterDataSet5;
+            // 
+            // masterDataSet5
+            // 
+            this.masterDataSet5.DataSetName = "masterDataSet5";
+            this.masterDataSet5.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // registrationTableAdapter
+            // 
+            this.registrationTableAdapter.ClearBeforeFill = true;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Ilyaasprojec.Properties.Resources.add_user;
+            this.pictureBox1.Location = new System.Drawing.Point(36, 18);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(150, 102);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 20;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1528, 909);
+            this.ClientSize = new System.Drawing.Size(1924, 805);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.textBox8);
@@ -449,13 +449,14 @@
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ADD_NEW_USER";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form2_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.masterDataSet5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.registrationBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.masterDataSet5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

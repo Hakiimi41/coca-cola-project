@@ -63,7 +63,7 @@
             this.oDERSToolStripMenuItem});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
-            this.menuStrip.Size = new System.Drawing.Size(948, 46);
+            this.menuStrip.Size = new System.Drawing.Size(1103, 46);
             this.menuStrip.TabIndex = 0;
             this.menuStrip.Text = "MenuStrip";
             // 
@@ -71,8 +71,9 @@
             // 
             this.uSERSToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.addNewUserToolStripMenuItem});
+            this.uSERSToolStripMenuItem.Image = global::Ilyaasprojec.Properties.Resources.add_user;
             this.uSERSToolStripMenuItem.Name = "uSERSToolStripMenuItem";
-            this.uSERSToolStripMenuItem.Size = new System.Drawing.Size(118, 42);
+            this.uSERSToolStripMenuItem.Size = new System.Drawing.Size(138, 42);
             this.uSERSToolStripMenuItem.Text = "USERS";
             // 
             // addNewUserToolStripMenuItem
@@ -86,14 +87,15 @@
             // 
             this.pRODUCTSToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.productsToolStripMenuItem1});
+            this.pRODUCTSToolStripMenuItem.Image = global::Ilyaasprojec.Properties.Resources.brand_identity;
             this.pRODUCTSToolStripMenuItem.Name = "pRODUCTSToolStripMenuItem";
-            this.pRODUCTSToolStripMenuItem.Size = new System.Drawing.Size(179, 42);
+            this.pRODUCTSToolStripMenuItem.Size = new System.Drawing.Size(199, 42);
             this.pRODUCTSToolStripMenuItem.Text = "PRODUCTS";
             // 
             // productsToolStripMenuItem1
             // 
             this.productsToolStripMenuItem1.Name = "productsToolStripMenuItem1";
-            this.productsToolStripMenuItem1.Size = new System.Drawing.Size(239, 46);
+            this.productsToolStripMenuItem1.Size = new System.Drawing.Size(270, 46);
             this.productsToolStripMenuItem1.Text = "products";
             this.productsToolStripMenuItem1.Click += new System.EventHandler(this.productsToolStripMenuItem1_Click);
             // 
@@ -101,8 +103,9 @@
             // 
             this.sUPPToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.suppliersToolStripMenuItem});
+            this.sUPPToolStripMenuItem.Image = global::Ilyaasprojec.Properties.Resources.manufacture;
             this.sUPPToolStripMenuItem.Name = "sUPPToolStripMenuItem";
-            this.sUPPToolStripMenuItem.Size = new System.Drawing.Size(172, 42);
+            this.sUPPToolStripMenuItem.Size = new System.Drawing.Size(192, 42);
             this.sUPPToolStripMenuItem.Text = "SCHEDULE";
             this.sUPPToolStripMenuItem.Click += new System.EventHandler(this.sUPPToolStripMenuItem_Click);
             // 
@@ -117,14 +120,15 @@
             // 
             this.cUSTToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.customerToolStripMenuItem});
+            this.cUSTToolStripMenuItem.Image = global::Ilyaasprojec.Properties.Resources.target;
             this.cUSTToolStripMenuItem.Name = "cUSTToolStripMenuItem";
-            this.cUSTToolStripMenuItem.Size = new System.Drawing.Size(198, 42);
+            this.cUSTToolStripMenuItem.Size = new System.Drawing.Size(218, 42);
             this.cUSTToolStripMenuItem.Text = "CUSTOMERS";
             // 
             // customerToolStripMenuItem
             // 
             this.customerToolStripMenuItem.Name = "customerToolStripMenuItem";
-            this.customerToolStripMenuItem.Size = new System.Drawing.Size(246, 46);
+            this.customerToolStripMenuItem.Size = new System.Drawing.Size(270, 46);
             this.customerToolStripMenuItem.Text = "customer";
             this.customerToolStripMenuItem.Click += new System.EventHandler(this.customerToolStripMenuItem_Click);
             // 
@@ -132,14 +136,15 @@
             // 
             this.cATEGORYToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.categoryToolStripMenuItem1});
+            this.cATEGORYToolStripMenuItem.Image = global::Ilyaasprojec.Properties.Resources.categories;
             this.cATEGORYToolStripMenuItem.Name = "cATEGORYToolStripMenuItem";
-            this.cATEGORYToolStripMenuItem.Size = new System.Drawing.Size(175, 42);
+            this.cATEGORYToolStripMenuItem.Size = new System.Drawing.Size(195, 42);
             this.cATEGORYToolStripMenuItem.Text = "CATEGORY";
             // 
             // categoryToolStripMenuItem1
             // 
             this.categoryToolStripMenuItem1.Name = "categoryToolStripMenuItem1";
-            this.categoryToolStripMenuItem1.Size = new System.Drawing.Size(239, 46);
+            this.categoryToolStripMenuItem1.Size = new System.Drawing.Size(270, 46);
             this.categoryToolStripMenuItem1.Text = "category";
             this.categoryToolStripMenuItem1.Click += new System.EventHandler(this.categoryToolStripMenuItem1_Click);
             // 
@@ -147,14 +152,15 @@
             // 
             this.oDERSToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.odersToolStripMenuItem1});
+            this.oDERSToolStripMenuItem.Image = global::Ilyaasprojec.Properties.Resources.checkout;
             this.oDERSToolStripMenuItem.Name = "oDERSToolStripMenuItem";
-            this.oDERSToolStripMenuItem.Size = new System.Drawing.Size(124, 42);
+            this.oDERSToolStripMenuItem.Size = new System.Drawing.Size(144, 42);
             this.oDERSToolStripMenuItem.Text = "ODERS";
             // 
             // odersToolStripMenuItem1
             // 
             this.odersToolStripMenuItem1.Name = "odersToolStripMenuItem1";
-            this.odersToolStripMenuItem1.Size = new System.Drawing.Size(200, 46);
+            this.odersToolStripMenuItem1.Size = new System.Drawing.Size(270, 46);
             this.odersToolStripMenuItem1.Text = "Oders";
             this.odersToolStripMenuItem1.Click += new System.EventHandler(this.odersToolStripMenuItem1_Click);
             // 
@@ -166,7 +172,7 @@
             this.statusStrip.Location = new System.Drawing.Point(0, 665);
             this.statusStrip.Name = "statusStrip";
             this.statusStrip.Padding = new System.Windows.Forms.Padding(2, 0, 21, 0);
-            this.statusStrip.Size = new System.Drawing.Size(948, 32);
+            this.statusStrip.Size = new System.Drawing.Size(1103, 32);
             this.statusStrip.TabIndex = 2;
             this.statusStrip.Text = "StatusStrip";
             // 
@@ -180,9 +186,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Ilyaasprojec.Properties.Resources.p1;
+            this.BackgroundImage = global::Ilyaasprojec.Properties.Resources.parent;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(948, 697);
+            this.ClientSize = new System.Drawing.Size(1103, 697);
             this.Controls.Add(this.statusStrip);
             this.Controls.Add(this.menuStrip);
             this.DoubleBuffered = true;

@@ -31,8 +31,8 @@
             this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
             this.textBox2 = new System.Windows.Forms.ComboBox();
-            this.productsBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.masterDataSet12 = new Ilyaasprojec.masterDataSet12();
+            this.productsBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.masterDataSet13 = new Ilyaasprojec.masterDataSet13();
             this.textBox4 = new System.Windows.Forms.DateTimePicker();
             this.textBox3 = new System.Windows.Forms.DateTimePicker();
             this.label3 = new System.Windows.Forms.Label();
@@ -41,6 +41,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.productsBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.masterDataSet12 = new Ilyaasprojec.masterDataSet12();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -59,18 +61,16 @@
             this.shceduleTableAdapter = new Ilyaasprojec.masterDataSet11TableAdapters.shceduleTableAdapter();
             this.label5 = new System.Windows.Forms.Label();
             this.productsTableAdapter = new Ilyaasprojec.masterDataSet12TableAdapters.ProductsTableAdapter();
-            this.masterDataSet13 = new Ilyaasprojec.masterDataSet13();
-            this.productsBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.productsTableAdapter1 = new Ilyaasprojec.masterDataSet13TableAdapters.ProductsTableAdapter();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.productsBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.masterDataSet13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.productsBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.masterDataSet12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.shceduleBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.masterDataSet11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.masterDataSet13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.productsBindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -101,15 +101,15 @@
             this.textBox2.ValueMember = "product_id";
             this.textBox2.SelectedIndexChanged += new System.EventHandler(this.textBox2_SelectedIndexChanged);
             // 
-            // productsBindingSource
+            // productsBindingSource1
             // 
-            this.productsBindingSource.DataMember = "Products";
-            this.productsBindingSource.DataSource = this.masterDataSet12;
+            this.productsBindingSource1.DataMember = "Products";
+            this.productsBindingSource1.DataSource = this.masterDataSet13;
             // 
-            // masterDataSet12
+            // masterDataSet13
             // 
-            this.masterDataSet12.DataSetName = "masterDataSet12";
-            this.masterDataSet12.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            this.masterDataSet13.DataSetName = "masterDataSet13";
+            this.masterDataSet13.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // textBox4
             // 
@@ -187,13 +187,23 @@
             this.label1.Text = "schedule_id:";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
+            // productsBindingSource
+            // 
+            this.productsBindingSource.DataMember = "Products";
+            this.productsBindingSource.DataSource = this.masterDataSet12;
+            // 
+            // masterDataSet12
+            // 
+            this.masterDataSet12.DataSetName = "masterDataSet12";
+            this.masterDataSet12.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Cyan;
             this.button1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(221, 559);
+            this.button1.Location = new System.Drawing.Point(161, 559);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(129, 72);
+            this.button1.Size = new System.Drawing.Size(141, 55);
             this.button1.TabIndex = 18;
             this.button1.Text = "insert";
             this.button1.UseVisualStyleBackColor = false;
@@ -203,9 +213,9 @@
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.button2.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(50, 559);
+            this.button2.Location = new System.Drawing.Point(14, 559);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(159, 72);
+            this.button2.Size = new System.Drawing.Size(141, 55);
             this.button2.TabIndex = 19;
             this.button2.Text = "Update";
             this.button2.UseVisualStyleBackColor = false;
@@ -216,9 +226,9 @@
             this.button3.BackColor = System.Drawing.Color.Red;
             this.button3.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(380, 559);
+            this.button3.Location = new System.Drawing.Point(308, 559);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(129, 72);
+            this.button3.Size = new System.Drawing.Size(141, 55);
             this.button3.TabIndex = 20;
             this.button3.Text = "Delete";
             this.button3.UseVisualStyleBackColor = false;
@@ -229,9 +239,9 @@
             this.button4.BackColor = System.Drawing.Color.DarkRed;
             this.button4.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(554, 559);
+            this.button4.Location = new System.Drawing.Point(455, 559);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(129, 72);
+            this.button4.Size = new System.Drawing.Size(141, 55);
             this.button4.TabIndex = 21;
             this.button4.Text = "Clear";
             this.button4.UseVisualStyleBackColor = false;
@@ -239,10 +249,10 @@
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(1007, 130);
+            this.textBox8.Location = new System.Drawing.Point(1008, 137);
             this.textBox8.Multiline = true;
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(631, 56);
+            this.textBox8.Size = new System.Drawing.Size(332, 49);
             this.textBox8.TabIndex = 24;
             // 
             // button7
@@ -250,9 +260,9 @@
             this.button7.BackColor = System.Drawing.Color.Blue;
             this.button7.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(843, 114);
+            this.button7.Location = new System.Drawing.Point(850, 137);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(141, 72);
+            this.button7.Size = new System.Drawing.Size(141, 49);
             this.button7.TabIndex = 26;
             this.button7.Text = "filter";
             this.button7.UseVisualStyleBackColor = false;
@@ -263,9 +273,9 @@
             this.button8.BackColor = System.Drawing.Color.Black;
             this.button8.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button8.ForeColor = System.Drawing.Color.White;
-            this.button8.Location = new System.Drawing.Point(669, 114);
+            this.button8.Location = new System.Drawing.Point(703, 137);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(168, 72);
+            this.button8.Size = new System.Drawing.Size(141, 49);
             this.button8.TabIndex = 25;
             this.button8.Text = "Search";
             this.button8.UseVisualStyleBackColor = false;
@@ -295,7 +305,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(966, 337);
+            this.dataGridView1.Size = new System.Drawing.Size(668, 337);
             this.dataGridView1.TabIndex = 22;
             // 
             // scheduleidDataGridViewTextBoxColumn
@@ -347,26 +357,16 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Century Gothic", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(236, 35);
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(221, 42);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(430, 47);
+            this.label5.Size = new System.Drawing.Size(452, 43);
             this.label5.TabIndex = 24;
-            this.label5.Text = "production-schedule";
+            this.label5.Text = "PRODUCTION-SCHEDULLE";
             // 
             // productsTableAdapter
             // 
             this.productsTableAdapter.ClearBeforeFill = true;
-            // 
-            // masterDataSet13
-            // 
-            this.masterDataSet13.DataSetName = "masterDataSet13";
-            this.masterDataSet13.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // productsBindingSource1
-            // 
-            this.productsBindingSource1.DataMember = "Products";
-            this.productsBindingSource1.DataSource = this.masterDataSet13;
             // 
             // productsTableAdapter1
             // 
@@ -392,17 +392,18 @@
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SUPPLIERS";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form5_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.productsBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.masterDataSet13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.productsBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.masterDataSet12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.shceduleBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.masterDataSet11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.masterDataSet13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.productsBindingSource1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
